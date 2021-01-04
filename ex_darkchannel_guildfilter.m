@@ -3,8 +3,8 @@ clc
 close all
 kenlRatio = .01; % from the image, in terms of brightness, we take the fisrt 0.01 images 
 minAtomsLight = 240; % the min atmosphere light 
-hazydir = '../data/dense/'
-savedir = './results/results_dense/'
+hazydir = '../data/'
+savedir = './results/'
 imgset=dir(hazydir);
 imgset=imgset(3:end);
 nimg=size(imgset,1);
